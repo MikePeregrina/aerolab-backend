@@ -1,1 +1,1 @@
-web: npm install --legacy-peer-deps && npx prisma generate && node dist/index.js
+web: npm ci --legacy-peer-deps && npm run build && node dist/index.js
